@@ -1,5 +1,5 @@
 
-
+/*
 let score="33"
 console.log( typeof score)
 let value=Number(score)
@@ -34,3 +34,30 @@ let a1=33
 let stringa =String(a)
 console.log( typeof a1)
 console.log(typeof stringa)
+
+
+let str1="mohit"
+let str2="ranga"
+let str3=str1+str2
+console.log(str3)
+
+
+console.log("1"+2)
+console.log(1+"2")
+console.log("1"+2+2)
+console.log(1+2+"2")
+
+console.log(3*(2/5))
+*/
+let c=100
+++c
+console.log(c)
+c++
+console.log(c)
+
+
+console.log(null>0)
+console.log(null==0)
+console.log(null>=0)
+console.log("2"===2)
+
