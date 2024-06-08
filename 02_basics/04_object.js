@@ -46,4 +46,21 @@ console.log(tinderuser)
 console.log(Object.keys(tinderuser))// return the keys in array format 
 console.log(Object.values(tinderuser))
 console.log(Object.entries(tinderuser))// make array of key and value
-console.log(tinderuser.hasOwnProperty('name'));
+console.log(tinderuser.hasOwnProperty('name'));//it will return whther it has this key or not
+
+
+const course={
+    coursename:"js in hindi",
+    price:"000",
+    courseInstructor:"hitesh"
+}
+ 
+//console.log(course.courseInstructor);
+
+const {courseInstructor : instructor}=course /// destructing
+console.log(instructor)
+
+
+{
+    name:"hitesh", 
+}
